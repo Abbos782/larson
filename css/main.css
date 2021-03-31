@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,300;1,400&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -51,7 +52,7 @@ body {
 }
 
 .navbar .container-fluid .row .logo a h2 {
-  font-family: Gilroy;
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -62,7 +63,7 @@ body {
 }
 
 .navbar .container-fluid .row .logo a P {
-  font-family: Work Sans;
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
@@ -88,7 +89,7 @@ body {
 }
 
 .navbar .container-fluid .row .list li a {
-  font-family: Gilroy;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -107,7 +108,7 @@ body {
 }
 
 .navbar .container-fluid .row .contact a {
-  font-family: Gilroy;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -121,5 +122,183 @@ body {
   background-image: url("../img/header.jpg");
   background-size: cover;
   width: 100%;
+  min-height: 990;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .photo .header__box {
+  width: 14%;
+  height: 517px;
+  border-left: 4px solid #FBC710;
+  border-top: 4px solid #FBC710;
+  border-bottom: 4px solid #FBC710;
+  padding: 80px 30px;
+  margin: 200px 0;
+}
+
+.header .photo .header__box p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header .photo .header__box h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.header .photo .header__box h1 span {
+  color: #FBC710;
+}
+
+.header .photo .header__box a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .photo .header__box a:hover {
+  color: #196dbb;
+}
+
+.header .photo .news {
+  position: absolute;
+  bottom: -20%;
+  left: 20%;
+  font-size: 22px;
+}
+
+.header .photo .news a {
+  font-size: Roboto;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.header .photo .news a:hover {
+  opacity: 0.6;
+}
+
+.header .photo .box {
+  opacity: none;
+  -webkit-transform: translateX(22.5%);
+          transform: translateX(22.5%);
+  padding: 30px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #272727;
+}
+
+.header .photo .box .box__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .photo .box .box__text span {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.header .photo .box .box__text .span {
+  font-size: 70px;
+  color: #FBC710;
+  font-weight: 700;
+}
+
+.header .photo .box .box__text p {
+  width: 40%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 20px 0;
+  color: #FFFFFF;
+}
+
+.about {
+  margin: 200px 0;
+}
+
+.about .about__text {
+  font-family: Roboto;
+}
+
+.about .about__text a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FBC710;
+  text-transform: uppercase;
+}
+
+.about .about__text h2 {
+  width: 70%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.about .about__text h2 span {
+  color: #FBC710;
+}
+
+.about .about__text p {
+  width: 80%;
+  margin: 50px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #929292;
+}
+
+.about .about__text .btnn {
+  background-color: #FBC710;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
